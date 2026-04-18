@@ -1,6 +1,9 @@
 📊 Sales Analytics Dashboard — Power BI
+
 Overview
-An interactive sales analytics dashboard built in Power BI analysing transactional sales data across UAE emirates, product subdivisions, and customer accounts. The dashboard enables business stakeholders to monitor revenue performance, margin health, and sales trends across multiple fiscal years.
+
+An interactive sales analytics dashboard built in Power BI analysing transactional sales data across UAE emirates, product subdivisions, and customer accounts. The dashboard enables business stakeholders to monitor revenue performance, margin, and sales trends across multiple fiscal years.
+
 🛠️ Tools & Technologies
 
 Power BI Desktop — dashboard development and visualisation
