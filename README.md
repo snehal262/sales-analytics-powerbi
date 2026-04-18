@@ -56,7 +56,7 @@ Total of 9,939 transactions recorded across the analysis period
 
 🖼️ Dashboard Screenshots
 Page 1 — Sales Overview
-Show Image
+
 
 📂 Repository Structure
 ├── README.md
