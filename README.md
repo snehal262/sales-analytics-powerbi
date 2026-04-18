@@ -56,7 +56,7 @@ Total of 9,939 transactions recorded across the analysis period
 
 🖼️ Dashboard Screenshots
 Page 1 — Sales Overview
-![Sales Overview](screenshots/Sales Dashboard Overall.jpeg)![Dashboard](screenshots/Sales Dashboard Overall.jpeg)
+![Sales Overview](screenshots/Sales Dashboard Overall.jpeg)![Dashboard](screenshots/SalesDashboardOverall.jpeg)
 
 📂 Repository Structure
 ├── README.md
