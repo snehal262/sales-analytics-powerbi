@@ -18,7 +18,7 @@ Covers 3 product subdivisions across 8 UAE emirates
 Fields include: invoice date, account name, salesman, product, quantity, rate, sales value, cost, margin, and VAT
 
 
-⚠️ Note: Dataset used in this project is pseudo/anonymised data generated to replicate the structure of real sales data. No real company or customer information is included.
+Note: Dataset used in this project is pseudo data generated to replicate the structure of real sales data. No real company or customer information is included.
 
 
 
@@ -72,6 +72,7 @@ Page 1 — Sales Overview
     └── Sales Dashboard Overall
     └── Sales Value By Month
     └── Tables Showing Highest Sold Parts And Most Profitable Customers
+
 👤 Author
 Snehal D Souza
 Data & Operations Analyst | MSc Data Science (Distinction) | AWS & Power BI Certified
