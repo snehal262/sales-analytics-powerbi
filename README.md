@@ -75,6 +75,3 @@ Page 1 — Sales Overview
 
 👤 Author
 Snehal D Souza
-Data & Operations Analyst | MSc Data Science (Distinction) | AWS & Power BI Certified
-
-This project was built as part of a personal portfolio to demonstrate data analytics and business intelligence skills.
