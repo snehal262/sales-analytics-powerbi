@@ -53,18 +53,7 @@ Average margin of 53% is above the 43% target
 Total of 9,939 transactions recorded across the analysis period
 
 Dashboard Screenshots
-Page 1 — Sales Overview
 ![Sales Overview](screenshots/Sales Dashboard Overall.jpeg)![Dashboard](screenshots/SalesDashboardOverall.jpeg)
 
-Repository Structure
-├── README.md
-├── data/
-│   └── WD_SALES_DATA_PSEUDO.xlsx
-└── screenshots/
-    ├── Bar Chart Sales Value By Emirate.png
-    └── KPI Trackers And Filters.png
-    └── Pie Chart_Sales Value By Sub Division
-    └── Sales Dashboard Overall
-    └── Sales Value By Month
-    └── Tables Showing Highest Sold Parts And Most Profitable Customers
+All files and screenshots present in the respective folders
 
