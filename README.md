@@ -4,14 +4,8 @@ Overview
 
 An interactive sales analytics dashboard built in Power BI analysing transactional sales data across UAE emirates, product subdivisions, and customer accounts. The dashboard enables business stakeholders to monitor revenue performance, margin, and sales trends across multiple fiscal years.
 
-🛠️ Tools & Technologies
 
-Power BI Desktop — dashboard development and visualisation
-DAX — custom measures for KPIs and margin analysis
-Microsoft Excel — data source and preparation
-Power Query — data transformation and cleaning
-
-📁 Dataset
+Dataset
 
 9,939 sales transactions spanning October 2022 to April 2026
 Covers 3 product subdivisions across 8 UAE emirates
@@ -22,7 +16,7 @@ Note: Dataset used in this project is pseudo data generated to replicate the str
 
 
 
-📌 Dashboard Features
+Dashboard Features
 
 Date range slicer — filter all visuals by invoice date
 Fiscal year filter — slice by FY22-23 through FY25-26
@@ -34,7 +28,7 @@ Sales Value by Subdivision — pie chart showing product category split
 Top Products table — ranked by sales value with quantity
 Top Accounts table — customer level revenue and margin breakdown
 
-📐 Key DAX Measures
+Key DAX Measures
 daxTotal Sales = SUM('Table 1 (Sheet1)'[SALES VALUE])
 
 Margin % = DIVIDE(SUM('Table 1 (Sheet1)'[MARGIN]), SUM('Table 1 (Sheet1)'[SALES VALUE]), 0)
@@ -49,7 +43,8 @@ MoM Growth =
 VAR CurrentMonth = [Total Sales]
 VAR LastMonth = CALCULATE([Total Sales], DATEADD('Table 1 (Sheet1)'[INVOICE DATE], -1, MONTH))
 RETURN DIVIDE(CurrentMonth - LastMonth, LastMonth, 0)
-📊 Key Insights
+
+Key Insights
 
 Dubai accounts for the largest share of revenue at approximately 49% of total sales
 Certify Spares subdivision drives 70.83% of total revenue
@@ -57,11 +52,11 @@ November and December show consistent revenue peaks across fiscal years
 Average margin of 53% is above the 43% target
 Total of 9,939 transactions recorded across the analysis period
 
-🖼️ Dashboard Screenshots
+Dashboard Screenshots
 Page 1 — Sales Overview
 ![Sales Overview](screenshots/Sales Dashboard Overall.jpeg)![Dashboard](screenshots/SalesDashboardOverall.jpeg)
 
-📂 Repository Structure
+Repository Structure
 ├── README.md
 ├── data/
 │   └── WD_SALES_DATA_PSEUDO.xlsx
@@ -73,5 +68,3 @@ Page 1 — Sales Overview
     └── Sales Value By Month
     └── Tables Showing Highest Sold Parts And Most Profitable Customers
 
-👤 Author
-Snehal D Souza
